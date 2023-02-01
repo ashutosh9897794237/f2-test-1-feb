@@ -8,18 +8,37 @@
     <Style>
        .gallery{
         display: flex;
-        size: 200px 200px;
-        justify-content: 20px space-between;
-
+        height: 200px;
+        width: 200px;
+        justify-content: space-between;
+        padding: 50px;
        }
     </Style>
 </head>
 <body>
-    <h1>Gallery</h1>
-   <div class="gallery"> <img src="https://images.unsplash.com/photo-1673843461190-635869dd16b2?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=201&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY3NTIzMTQ4Nw&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300" alt="">
-<img src="https://images.unsplash.com/photo-1673843461190-635869dd16b2?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=201&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY3NTIzMTQ4Nw&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300" alt="">
-<img src="https://images.unsplash.com/photo-1670182728009-bdd10660d1e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=300" alt="">
-<img src="https://media.istockphoto.com/id/1357145597/photo/canary-escapes-from-bird-cage-freedom-and-open-mind-concept-this-is-a-3d-render-illustration.jpg?s=1024x1024&w=is&k=20&c=g0ZZ7OCOUnqjYVfeft1SqYSgDeqrVS6NoJ4jV5sKpPM=" alt="">
+   <a href="index2.html"><div class="gallery"> <img src="https://st2.depositphotos.com/3837271/6941/i/950/depositphotos_69417709-stock-photo-text-sign-up.jpg" alt=""   ></a>
+<a href="index3.html"><img src="https://images.unsplash.com/photo-1460467820054-c87ab43e9b59?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=767&q=80" alt=""></a>
+<img src="https://thumbs.dreamstime.com/b/red-dice-14185404.jpg" alt="">
+<img src="https://img.freepik.com/free-vector/modern-coupon-template-with-flat-design_23-2147964693.jpg?w=2000" alt="">
    </div>
+
+<script>
+   Image.oncllick = display;   
+
+   function form(){
+    let email = document.getElementById("email");
+    let password = document.getElementById("password");
+    if(email.value !="" && password.value!="") {
+        alert("All good to go!");
+    }
+    else{
+        alert("please fill in all fields")
+    }
+ }
+
+
+  
+</script>
+
 </body>
 </html>
